@@ -6,3 +6,4 @@ def aboba():
         number = random.randint(0, 100)  # значение от 0.0 до 100.0
         print(number)
 aboba()
+
