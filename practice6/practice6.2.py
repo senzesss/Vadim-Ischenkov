@@ -46,3 +46,4 @@ for el in listA:
 print(f'Список A: {listA}')
 print(f'Ближайшее число к R: {closest_el}')
 
+

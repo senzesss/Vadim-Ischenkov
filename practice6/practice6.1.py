@@ -22,3 +22,4 @@ even = listA[::2]
 
 print(listA)
 print(even)
+
