@@ -47,5 +47,3 @@ for el in listA:
 # Выводим список A и ближайший элемент к числу R
 print(f'Список A: {listA}')
 print(f'Ближайшее число к R: {closest_el}')
-
-
