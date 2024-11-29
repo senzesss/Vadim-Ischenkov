@@ -5,7 +5,7 @@ n = input("Введите чётное положительное число >> 
 while True:
     try:
         n = int(n)
-        if n > 0 and (n % 2)==0:
+        if n > 0 and (n % 2) == 0:
             break  # Если все условия выполнены, выходим из цикла
         else:
             print("Число должно быть положительным и чётным")
@@ -14,12 +14,9 @@ while True:
         print("Неправильно ввели число!")
         n = input("Введите чётное положительное число >>")
 
-listA = []
-
 listA = list(range(n))
 
 even = listA[::2]
 
 print(listA)
 print(even)
-
